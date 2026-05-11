@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "TaskManagerBackendTest.Api.Controllers.ApplicationUserController",
+    "Method": "Authenticate",
+    "RelativePath": "api/ApplicationUser/Authenticate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TaskManagerBackendTest.ViewModels.param.PAuthenticateVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerBackendTest.Api.Controllers.TaskManagerController",
+    "Method": "Add",
+    "RelativePath": "api/TaskManager/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TaskManagerBackendTest.ViewModels.TaskManagerVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerBackendTest.Api.Controllers.TaskManagerController",
+    "Method": "Delete",
+    "RelativePath": "api/TaskManager/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerBackendTest.Api.Controllers.TaskManagerController",
+    "Method": "GetAll",
+    "RelativePath": "api/TaskManager/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SearchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerBackendTest.Api.Controllers.TaskManagerController",
+    "Method": "GetByTaskCompleted",
+    "RelativePath": "api/TaskManager/GetByTaskCompleted",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TaskManagerBackendTest.Api.Controllers.TaskManagerController",
+    "Method": "Update",
+    "RelativePath": "api/TaskManager/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "TaskManagerBackendTest.ViewModels.TaskManagerVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

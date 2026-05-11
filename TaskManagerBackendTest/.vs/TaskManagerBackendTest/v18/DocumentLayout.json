@@ -1,0 +1,412 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38C00ACE-AEF9-479B-A3E9-ABA1DEC0F2B9}|TaskManagerBackendTest.Repository\\TaskManagerBackendTest.Repository.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.repository\\taskmanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C00ACE-AEF9-479B-A3E9-ABA1DEC0F2B9}|TaskManagerBackendTest.Repository\\TaskManagerBackendTest.Repository.csproj|solutionrelative:taskmanagerbackendtest.repository\\taskmanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|solutionrelative:taskmanagerbackendtest.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C00ACE-AEF9-479B-A3E9-ABA1DEC0F2B9}|TaskManagerBackendTest.Repository\\TaskManagerBackendTest.Repository.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C00ACE-AEF9-479B-A3E9-ABA1DEC0F2B9}|TaskManagerBackendTest.Repository\\TaskManagerBackendTest.Repository.csproj|solutionrelative:taskmanagerbackendtest.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.api\\common\\initialsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|solutionrelative:taskmanagerbackendtest.api\\common\\initialsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C00ACE-AEF9-479B-A3E9-ABA1DEC0F2B9}|TaskManagerBackendTest.Repository\\TaskManagerBackendTest.Repository.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.repository\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C00ACE-AEF9-479B-A3E9-ABA1DEC0F2B9}|TaskManagerBackendTest.Repository\\TaskManagerBackendTest.Repository.csproj|solutionrelative:taskmanagerbackendtest.repository\\applicationuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|solutionrelative:taskmanagerbackendtest.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|solutionrelative:taskmanagerbackendtest.api\\controllers\\applicationusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B9C4F9-6DA1-4FED-81B5-6C675D5440B1}|TaskManagerBackendTest.Services\\TaskManagerBackendTest.Services.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.services\\iapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B9C4F9-6DA1-4FED-81B5-6C675D5440B1}|TaskManagerBackendTest.Services\\TaskManagerBackendTest.Services.csproj|solutionrelative:taskmanagerbackendtest.services\\iapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33737E46-654A-4EB5-8BB2-3F6EEF0DD48B}|TaskManagerTest.Models\\TaskManagerBackendTest.Models.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagertest.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33737E46-654A-4EB5-8BB2-3F6EEF0DD48B}|TaskManagerTest.Models\\TaskManagerBackendTest.Models.csproj|solutionrelative:taskmanagertest.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.api\\controllers\\taskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3589C5E9-257E-48EE-8A6F-B8A36933B291}|TaskManagerBackendTest.Api\\TaskManagerBackendTest.Api.csproj|solutionrelative:taskmanagerbackendtest.api\\controllers\\taskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4B9C4F9-6DA1-4FED-81B5-6C675D5440B1}|TaskManagerBackendTest.Services\\TaskManagerBackendTest.Services.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.services\\itaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4B9C4F9-6DA1-4FED-81B5-6C675D5440B1}|TaskManagerBackendTest.Services\\TaskManagerBackendTest.Services.csproj|solutionrelative:taskmanagerbackendtest.services\\itaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\common\\jwtsettingsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\common\\jwtsettingsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\param\\paddapplicationuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\param\\paddapplicationuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\param\\pcreatepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\param\\pcreatepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\param\\psearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\param\\psearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\result\\rauthenticatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\result\\rauthenticatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\result\\rpaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\result\\rpaging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\result\\rtaskmanagerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\result\\rtaskmanagerlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\apiresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\apiresultvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\taskmanagervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\taskmanagervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.viewmodels\\param\\pauthenticatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED9C2C-C2C8-4C92-90E2-6EC3113E8BAC}|TaskManagerBackendTest.ViewModels\\TaskManagerBackendTest.ViewModels.csproj|solutionrelative:taskmanagerbackendtest.viewmodels\\param\\pauthenticatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63AB4A8E-3442-4878-B9DD-0E1F2A79D6C8}|TaskManagerBackendTest.Enum\\TaskManagerBackendTest.Enum.csproj|c:\\users\\seraj\\desktop\\shakirproject\\backendtest\\taskmanagerbackendtest\\taskmanagerbackendtest.enum\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63AB4A8E-3442-4878-B9DD-0E1F2A79D6C8}|TaskManagerBackendTest.Enum\\TaskManagerBackendTest.Enum.csproj|solutionrelative:taskmanagerbackendtest.enum\\estatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Program.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Api\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:17:39.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Repository\\ApplicationUserRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Repository\\ApplicationUserRepository.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Repository\\ApplicationUserRepository.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Repository\\ApplicationUserRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:21:12.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\appsettings.json",
+              "RelativeToolTip": "TaskManagerBackendTest.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-06T21:07:53.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskManagerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Repository\\TaskManagerRepository.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Repository\\TaskManagerRepository.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Repository\\TaskManagerRepository.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Repository\\TaskManagerRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAcwKAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:19:26.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InitialSettings.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Common\\InitialSettings.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Api\\Common\\InitialSettings.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Common\\InitialSettings.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Api\\Common\\InitialSettings.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:07:59.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Repository\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Repository\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Repository\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Repository\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:16:55.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUserController.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Controllers\\ApplicationUserController.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Api\\Controllers\\ApplicationUserController.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Controllers\\ApplicationUserController.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Api\\Controllers\\ApplicationUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T10:39:41.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Services\\IApplicationUser.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Services\\IApplicationUser.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Services\\IApplicationUser.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Services\\IApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:10:26.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerTest.Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "TaskManagerTest.Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerTest.Models\\ApplicationUser.cs",
+              "RelativeToolTip": "TaskManagerTest.Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T10:18:18.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskManagerController.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Controllers\\TaskManagerController.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Api\\Controllers\\TaskManagerController.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Api\\Controllers\\TaskManagerController.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Api\\Controllers\\TaskManagerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:08:00.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ITaskManager.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Services\\ITaskManager.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Services\\ITaskManager.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Services\\ITaskManager.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Services\\ITaskManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T10:15:25.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtSettingsVm.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\common\\JwtSettingsVm.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\common\\JwtSettingsVm.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\common\\JwtSettingsVm.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\common\\JwtSettingsVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T10:15:43.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PAddApplicationUserVm.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PAddApplicationUserVm.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\param\\PAddApplicationUserVm.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PAddApplicationUserVm.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\param\\PAddApplicationUserVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:03:18.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PCreatePassword.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PCreatePassword.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\param\\PCreatePassword.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PCreatePassword.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\param\\PCreatePassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T10:16:49.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PSearch.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PSearch.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\param\\PSearch.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PSearch.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\param\\PSearch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T10:18:05.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RAuthenticateVm.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\result\\RAuthenticateVm.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\result\\RAuthenticateVm.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\result\\RAuthenticateVm.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\result\\RAuthenticateVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:36:23.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RPaging.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\result\\RPaging.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\result\\RPaging.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\result\\RPaging.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\result\\RPaging.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:36:18.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RTaskManagerList.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\result\\RTaskManagerList.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\result\\RTaskManagerList.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\result\\RTaskManagerList.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\result\\RTaskManagerList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:36:06.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApiResultVm.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\ApiResultVm.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\ApiResultVm.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\ApiResultVm.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\ApiResultVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:36:03.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskManagerVm.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\TaskManagerVm.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\TaskManagerVm.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\TaskManagerVm.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\TaskManagerVm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAD4vxQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-04T19:09:00.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PAuthenticateVm.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PAuthenticateVm.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.ViewModels\\param\\PAuthenticateVm.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.ViewModels\\param\\PAuthenticateVm.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.ViewModels\\param\\PAuthenticateVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T09:25:20.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EStatus.cs",
+              "DocumentMoniker": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Enum\\EStatus.cs",
+              "RelativeDocumentMoniker": "TaskManagerBackendTest.Enum\\EStatus.cs",
+              "ToolTip": "C:\\Users\\seraj\\Desktop\\ShakirProject\\BackendTest\\TaskManagerBackendTest\\TaskManagerBackendTest.Enum\\EStatus.cs",
+              "RelativeToolTip": "TaskManagerBackendTest.Enum\\EStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T21:48:50.16Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

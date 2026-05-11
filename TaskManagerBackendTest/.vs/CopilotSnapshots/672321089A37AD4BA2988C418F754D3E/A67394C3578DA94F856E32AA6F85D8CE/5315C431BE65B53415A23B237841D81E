@@ -1,0 +1,59 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using TaskManagerBackendTest.Enum;
+using TaskManagerBackendTest.Services;
+using TaskManagerBackendTest.ViewModels;
+using TaskManagerBackendTest.ViewModels.param;
+
+namespace TaskManagerBackendTest.Api.Controllers
+{
+    [Route("api/[controller]/[action]")]
+    [ApiController]
+    [Authorize]
+    [Tags("Task Management")]
+    public class TaskManagerController : ControllerBase
+    {
+        private readonly ITaskManager repo;
+        public TaskManagerController(ITaskManager _repo)
+        {
+            repo = _repo;
+        }
+        [HttpPost]
+        public async Task<IActionResult> Add(TaskManagerVm model)
+        {
+            var res = await repo.Add(model);
+            return  Ok(res);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(TaskManagerVm model)
+        {
+            var res = await repo.Update(model);
+            return Ok(res);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var res = await repo.Delete(id);
+            return Ok(res);
+        }
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult GetAll(int PageNo, int PageSize, string? SearchTerm)
+        {
+            PSearch model = new PSearch
+            {
+                PageNo = PageNo,
+                PageSize = PageSize,
+                SearchTerm = SearchTerm
+            };
+            return Ok( repo.GetAll(model));
+        }
+        [HttpGet]
+        public async Task<IActionResult> GetByTaskCompleted()
+        {
+            return Ok(await repo.GetByTaskCompleted());
+        }
+        
+    }
+}

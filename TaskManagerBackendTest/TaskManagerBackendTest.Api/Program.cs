@@ -1,0 +1,84 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using Scalar.AspNetCore;
+using TaskManagerBackendTest.Api.Common;
+using TaskManagerBackendTest.Models;
+using TaskManagerBackendTest.Repository;
+using TaskManagerBackendTest.Services;
+using TaskManagerBackendTest.ViewModels;
+
+var builder = WebApplication.CreateBuilder(args);
+IConfiguration configuration = builder.Configuration;
+
+// Add services to the container.
+var appDetails = configuration.GetSection("AppInfo");
+builder.Services.Configure<AppDetails>(appDetails);
+
+builder.Services.AddControllers();
+// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+
+builder.Services.AddOpenApi(o=>
+{
+    o.AddDocumentTransformer((document, _, _) =>
+    {
+        document.Components ??= new OpenApiComponents();
+        document.Components.SecuritySchemes.Add(JwtBearerDefaults.AuthenticationScheme, new OpenApiSecurityScheme
+        {
+            BearerFormat = JwtBearerDefaults.AuthenticationScheme,
+            Scheme = JwtBearerDefaults.AuthenticationScheme,
+            Type = SecuritySchemeType.Http
+        });
+        return Task.CompletedTask;
+    }); 
+});
+builder.Services.AddDbContextPool<ApplicationDbContext>(e =>
+{
+    e.UseMySQL(configuration.GetConnectionString("LocalConnection"),
+        x => x.MigrationsAssembly("TaskManagerBackendTest.Api"));
+});
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
+InitialSettings.SetJwt(builder);
+
+builder.Services.AddScoped<ITaskManager, TaskManagerRepository>();
+builder.Services.AddScoped<IApplicationUser, ApplicationUserRepository>();
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy => policy
+            .WithOrigins(
+                "http://localhost:5173",
+                "http://localhost:5174",
+                "http://localhost:5175",
+                "http://localhost:5176",
+                "http://localhost:5177"
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+}
+app.MapOpenApi();
+app.MapScalarApiReference("/", x =>
+{
+    x.WithTitle("TaskManager");
+    x.Theme = ScalarTheme.Kepler;
+    x.Authentication = new ScalarAuthenticationOptions { PreferredSecurityScheme = JwtBearerDefaults.AuthenticationScheme };
+});
+
+app.UseHttpsRedirection();
+
+app.UseCors("AllowFrontend");
+
+app.UseAuthentication();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run(); 

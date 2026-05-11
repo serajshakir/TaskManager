@@ -1,0 +1,42 @@
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TaskManagerBackendTest.Models;
+using TaskManagerTest.Models;
+
+namespace TaskManagerBackendTest.Repository
+{
+    public class ApplicationDbContext : DbContext
+    {
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
+        { 
+        }
+        public DbSet<TaskManager> TaskManagers { get; set; } 
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            var hasher = new PasswordHasher<ApplicationUser>();
+            builder.Entity<ApplicationUser>().HasData(new ApplicationUser
+            {
+                Id = "administrator",
+                UserName = "Shakir",
+                NormalizedUserName = "Shakir",
+                Email = "connect@taskmanager.com",
+                FullName = "System Administrator",
+                Phone = "1234567890",
+                PasswordHash = hasher.HashPassword(null, "Shakir@123"),
+                Isverified = "true",
+                Location = "Head Office",
+            });
+        } 
+    }
+}
